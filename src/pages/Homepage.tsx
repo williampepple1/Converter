@@ -6,7 +6,7 @@ import {
   ChevronUpDownIcon,
   MagnifyingGlassIcon,
 } from '@heroicons/react/20/solid';
-import { NavLink, Outlet, useNavigate } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 
 
@@ -24,9 +24,6 @@ function classNames(...classes:any) {
 
 export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
-  const [modalOpen, setModalOpen] = useState(false)
-  const navigate = useNavigate();
-
   
   return (
     <>
