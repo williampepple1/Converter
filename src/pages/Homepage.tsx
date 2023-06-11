@@ -18,9 +18,10 @@ const teams = [
   { name: 'Image to PDF Converter', href: '/image-converter', bgColorClass: 'bg-indigo-500' }
 ]
 
-function classNames(...classes:any) {
-  return classes.filter(Boolean).join(' ')
-}
+function classNames(...classes: (false | string)[]): string {
+    return classes.filter(Boolean).join(' ')
+  }
+  
 
 export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
