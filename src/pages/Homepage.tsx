@@ -15,7 +15,8 @@ const navigation = [
 
 ]
 const teams = [
-  { name: 'Image to PDF Converter', href: '/image-converter', bgColorClass: 'bg-indigo-500' }
+  { name: 'Image to PDF Converter', href: '/image-converter', bgColorClass: 'bg-indigo-500' },
+  { name: 'Doc to PDF Converter', href: '/doc-pdf-converter', bgColorClass: 'bg-yellow-500' },
 ]
 
 function classNames(...classes: (false | string)[]): string {

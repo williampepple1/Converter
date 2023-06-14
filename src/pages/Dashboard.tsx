@@ -2,10 +2,10 @@
 
 function Dashboard() {
     return (
-        <div className="bg-white ">
+        <div className="bg-white">
 
-          <main className='h-screen'>
-              <div className="relative isolate overflow-hidden bg-gray-900 pt-14 pb-16 sm:pb-20">
+          <main>
+              <div className="relative isolate bg-gray-900 pt-14 pb-16 sm:pb-20">
               <img
                 src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
                 alt=""
