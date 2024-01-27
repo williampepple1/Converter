@@ -24,7 +24,7 @@ function classNames(...classes: (false | string)[]): string {
   }
   
 
-export default function Dashboard() {
+  const HomePage: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   
   return (
